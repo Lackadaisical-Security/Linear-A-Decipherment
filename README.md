@@ -2,7 +2,7 @@
 **Revolutionary Multi-Script Cross-Correlation Analysis for Archaeological Linguistics**
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![GitHub](https://img.shields.io/github/stars/Lackadaisical-Security/Universal-Ancient-Script-Decipherment?style=social)](https://github.com/Lackadaisical-Security/Universal-Ancient-Script-Decipherment)
+[![GitHub](https://img.shields.io/github/stars/Lackadaisical-Security/Universal-Ancient-Script-Decipherment?style=social)](https://github.com/Lackadaisical-Security/Linear-A-Decipherment/)
 
 > **🚀 BREAKTHROUGH ACHIEVEMENTS:**
 > - ✅ **Byblos Script:** 100% deciphered (87% confidence)
