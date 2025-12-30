@@ -23,25 +23,25 @@
 ### **🎯 Pass 1: Systematic Research Pipeline**
 | Document | Status | Description |
 |----------|--------|-------------|
-| [Phase 01](linear-a-01.html) | ✅ **COMPLETE** | Initial Research Investigation |
-| [Phase 02](linear-a-02.html) | ✅ **COMPLETE** | Advanced Sign Analysis |
-| [Phase 03](linear-a-03.html) | ✅ **COMPLETE** | Comparative Cross-Cultural Studies |
-| [Phase 04](linear-a-04.html) | ✅ **COMPLETE** | Archaeological Integration |
-| [Phase 05](linear-a-05.html) | ✅ **COMPLETE** | Comprehensive Methodology |
-| [Phase 06](linear-a-06.html) | ✅ **COMPLETE** | Final Analysis & Synthesis |
-| [**Complete Research**](linear-a-complete-research.html) | ✅ **COMPLETE** | Full Pass 1 Documentation |
-| [**Comprehensive Analysis**](linear-a-comprehensive-analysis.html) | ✅ **COMPLETE** | 92% Confidence Analysis |
+| [Phase 01](LINEAR_A_RESEARCH_LOG_01.md) | ✅ **COMPLETE** | Initial Research Investigation |
+| [Phase 02](LINEAR_A_RESEARCH_LOG_02.md) | ✅ **COMPLETE** | Advanced Sign Analysis |
+| [Phase 03](LINEAR_A_RESEARCH_LOG_03.md) | ✅ **COMPLETE** | Comparative Cross-Cultural Studies |
+| [Phase 04](LINEAR_A_RESEARCH_LOG_04.md) | ✅ **COMPLETE** | Archaeological Integration |
+| [Phase 05](LINEAR_A_RESEARCH_LOG_05.md) | ✅ **COMPLETE** | Comprehensive Methodology |
+| [Phase 06](LINEAR_A_RESEARCH_LOG_06.md) | ✅ **COMPLETE** | Final Analysis & Synthesis |
+| [**Complete Research**](LINEAR_A_COMPLETE_RESEARCH_DOCUMENTATION.md) | ✅ **COMPLETE** | Full Pass 1 Documentation |
+| [**Comprehensive Analysis**](LINEAR_A_COMPREHENSIVE_RESEARCH_ANALYSIS.md) | ✅ **COMPLETE** | 92% Confidence Analysis |
 
 ### **🔬 Pass 2: Advanced Multi-Pass Research**
 | Document | Status | Description |
 |----------|--------|-------------|
-| [**Second Pass Analysis**](linear-a-second-pass.html) | ✅ **COMPLETE** | 6-Phase Enhanced Methodology |
-| [**Complete Lexicon**](linear-a-lexicon.html) | ✅ **COMPLETE** | Comprehensive Sign Database |
+| [**Second Pass Analysis**](Linear-A-6phase-2ndpass.md) | ✅ **COMPLETE** | 6-Phase Enhanced Methodology |
+| [**Complete Lexicon**](linear_a_script_lexicon_MASTER-2025-09-11.json) | ✅ **COMPLETE** | Comprehensive Sign Database |
 
 ### **📁 Source Materials**
 - [Raw Research Files](../Linear-A-Decipherment/) - Source markdown and development files
 - [Master Decipherment List](../MASTER_DECIPHERMENT_LIST_2025.md) - Speed records and timeline
-- [All Scripts Network](../decipherment-drops.html) - Related decipherments
+- [All Scripts Network](https://lackadaisical-security.com/decipherment-drops.html) - Related decipherments
 
 ---
 
@@ -203,7 +203,7 @@ Any individual placed on the ban list may be considered for removal under the fo
 - [**Proto-Elamite**](../Proto-Elamite-Research/) - World's earliest writing
 
 ### **Research Network**
-- [All Deciphered Scripts](../decipherment-drops.html) - 6 major breakthroughs
+- [All Deciphered Scripts](https://lackadaisical-security.com/decipherment-drops.html) - 6 major breakthroughs
 - [Master Timeline](../MASTER_DECIPHERMENT_LIST_2025.md) - Complete speed records
 - [Lackadaisical Security](https://lackadaisical-security.com) - Main research site
 
@@ -212,18 +212,18 @@ Any individual placed on the ban list may be considered for removal under the fo
 ## 🎯 **Quick Access**
 
 ### **For Researchers**
-- [📖 Start Here: Complete Research](linear-a-complete-research.html)
-- [📊 Data Analysis: Comprehensive Analysis](linear-a-comprehensive-analysis.html)
-- [📚 Reference: Complete Lexicon](linear-a-lexicon.html)
+- [📖 Start Here: Complete Research](LINEAR_A_COMPLETE_RESEARCH_DOCUMENTATION.md)
+- [📊 Data Analysis: Comprehensive Analysis](LINEAR_A_COMPREHENSIVE_RESEARCH_ANALYSIS.md)
+- [📚 Reference: Complete Lexicon](linear_a_script_lexicon_MASTER-2025-09-11.json)
 
 ### **For Academics**
-- [🔬 Methodology: Second Pass Analysis](linear-a-second-pass.html)
+- [🔬 Methodology: Second Pass Analysis](Linear-A-6phase-2ndpass.md)
 - [📁 Raw Data: Source Files](../Linear-A-Decipherment/)
 - [📝 Citation: Attribution License](../ancient_scripts_attribution_license_v1.md)
 
 ### **For Media**
 - [🏆 Achievement: Speed Records](../MASTER_DECIPHERMENT_LIST_2025.md)
-- [🌐 Context: All Scripts](../decipherment-drops.html)
+- [🌐 Context: All Scripts](https://lackadaisical-security.com/decipherment-drops.html)
 - [📧 Contact: linguistics@lackadaisical-security.com](mailto:linguistics@lackadaisical-security.com)
 
 ---
@@ -234,5 +234,6 @@ Any individual placed on the ban list may be considered for removal under the fo
 
 
 *"After 125 years, Linear A speaks again. In just 5 minutes, ancient Minoan voices returned to the world."*
+
 
 
