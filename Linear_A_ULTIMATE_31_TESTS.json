@@ -1,0 +1,827 @@
+{
+  "zipf_law": {
+    "alpha": 1.0394,
+    "r_squared": 0.9116,
+    "classification": "NATURAL_LANGUAGE",
+    "confidence": "HIGH",
+    "interpretation": "α=1.039 indicates natural_language"
+  },
+  "heaps_law": {
+    "beta": 1.0985,
+    "K": 0.03,
+    "r_squared": 0.9862,
+    "interpretation": "Rapid vocabulary growth (diverse/literary)",
+    "final_vocab": 29,
+    "final_corpus": 526
+  },
+  "brevity_law": {
+    "correlation": -0.0482,
+    "p_value": 0.80396,
+    "interpretation": "Weak or no brevity law (may be logographic)",
+    "avg_length_top10": 4.6,
+    "avg_length_all": 4.48
+  },
+  "frequency_spectrum": {
+    "hapax_legomena": 0,
+    "hapax_ratio": 0.0,
+    "dis_legomena": 0,
+    "tris_legomena": 2,
+    "spectrum": {
+      "3": 2,
+      "5": 9,
+      "6": 1,
+      "8": 2,
+      "10": 1,
+      "15": 5,
+      "20": 2,
+      "30": 5,
+      "40": 1,
+      "138": 1
+    },
+    "interpretation": "Low diversity - formulaic or limited vocabulary"
+  },
+  "type_token_ratio": {
+    "ttr": 0.0551,
+    "sttr": 0.1296,
+    "vocab_size": 29,
+    "corpus_size": 526,
+    "interpretation": "Low diversity (formulaic)"
+  },
+  "repetition_rate": {
+    "repetition_rate": 1.0,
+    "top_repeated": [
+      [
+        "minoan",
+        138
+      ],
+      [
+        "scribe",
+        40
+      ],
+      [
+        "woman",
+        30
+      ],
+      [
+        "oil",
+        30
+      ],
+      [
+        "vessel",
+        30
+      ]
+    ],
+    "interpretation": "Highly formulaic"
+  },
+  "sequence_length": {
+    "mean": 10.12,
+    "median": 10.0,
+    "std_dev": 4.73,
+    "min": 5,
+    "max": 20,
+    "distribution": {
+      "10": 27,
+      "5": 15,
+      "20": 7,
+      "8": 1,
+      "17": 1,
+      "16": 1
+    }
+  },
+  "shannon_entropy": {
+    "entropy_bits": 4.0836,
+    "max_entropy": 4.858,
+    "normalized": 0.8406,
+    "redundancy": 0.1594,
+    "interpretation": "High entropy for small system"
+  },
+  "conditional_entropy": {
+    "conditional_entropy": 1.5228,
+    "context_reduction": 2.5608,
+    "interpretation": "Strong context dependency"
+  },
+  "cross_entropy": {
+    "cross_entropy": 4.858,
+    "interpretation": "Relatively uniform distribution"
+  },
+  "mutual_information": {
+    "mutual_information": 2.5677,
+    "normalized_mi": 0.6288,
+    "interpretation": "Strong dependency"
+  },
+  "kl_divergence": {
+    "kl_divergence": 0.0535,
+    "interpretation": "Close to Zipf"
+  },
+  "js_divergence": {
+    "js_divergence": 0.0135,
+    "similarity": 0.9865,
+    "interpretation": "Very similar to Zipf"
+  },
+  "kolmogorov_complexity": {
+    "original_bytes": 3129,
+    "compressed_bytes": 198,
+    "compression_ratio": 0.0633,
+    "complexity": 0.9367,
+    "interpretation": "Highly compressible (structured)"
+  },
+  "ngrams": {
+    "1-gram": {
+      "total": 526,
+      "unique": 29,
+      "ttr": 0.0551,
+      "top_10": [
+        [
+          [
+            "minoan"
+          ],
+          138
+        ],
+        [
+          [
+            "scribe"
+          ],
+          40
+        ],
+        [
+          [
+            "woman"
+          ],
+          30
+        ],
+        [
+          [
+            "oil"
+          ],
+          30
+        ],
+        [
+          [
+            "vessel"
+          ],
+          30
+        ],
+        [
+          [
+            "one"
+          ],
+          30
+        ],
+        [
+          [
+            "ten"
+          ],
+          30
+        ],
+        [
+          [
+            "wheat"
+          ],
+          20
+        ],
+        [
+          [
+            "official"
+          ],
+          20
+        ],
+        [
+          [
+            "a"
+          ],
+          15
+        ]
+      ]
+    },
+    "2-gram": {
+      "total": 474,
+      "unique": 69,
+      "ttr": 0.1456,
+      "top_10": [
+        [
+          [
+            "scribe",
+            "minoan"
+          ],
+          25
+        ],
+        [
+          [
+            "minoan",
+            "scribe"
+          ],
+          20
+        ],
+        [
+          [
+            "woman",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "wheat",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "oil",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "vessel",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "ten",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "official",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "vessel",
+            "oil"
+          ],
+          15
+        ],
+        [
+          [
+            "oil",
+            "ten"
+          ],
+          15
+        ]
+      ]
+    },
+    "3-gram": {
+      "total": 422,
+      "unique": 86,
+      "ttr": 0.2038,
+      "top_10": [
+        [
+          [
+            "scribe",
+            "minoan",
+            "scribe"
+          ],
+          20
+        ],
+        [
+          [
+            "minoan",
+            "scribe",
+            "minoan"
+          ],
+          20
+        ],
+        [
+          [
+            "vessel",
+            "oil",
+            "ten"
+          ],
+          15
+        ],
+        [
+          [
+            "oil",
+            "ten",
+            "storage"
+          ],
+          15
+        ],
+        [
+          [
+            "scribe",
+            "woman",
+            "one"
+          ],
+          15
+        ],
+        [
+          [
+            "woman",
+            "one",
+            "personnel"
+          ],
+          15
+        ],
+        [
+          [
+            "woman",
+            "minoan",
+            "woman"
+          ],
+          12
+        ],
+        [
+          [
+            "minoan",
+            "woman",
+            "minoan"
+          ],
+          12
+        ],
+        [
+          [
+            "wheat",
+            "minoan",
+            "wheat"
+          ],
+          12
+        ],
+        [
+          [
+            "minoan",
+            "wheat",
+            "minoan"
+          ],
+          12
+        ]
+      ]
+    },
+    "4-gram": {
+      "total": 370,
+      "unique": 88,
+      "ttr": 0.2378,
+      "top_10": [
+        [
+          [
+            "scribe",
+            "minoan",
+            "scribe",
+            "minoan"
+          ],
+          20
+        ],
+        [
+          [
+            "minoan",
+            "scribe",
+            "minoan",
+            "scribe"
+          ],
+          15
+        ],
+        [
+          [
+            "vessel",
+            "oil",
+            "ten",
+            "storage"
+          ],
+          15
+        ],
+        [
+          [
+            "scribe",
+            "woman",
+            "one",
+            "personnel"
+          ],
+          15
+        ],
+        [
+          [
+            "woman",
+            "minoan",
+            "woman",
+            "minoan"
+          ],
+          12
+        ],
+        [
+          [
+            "wheat",
+            "minoan",
+            "wheat",
+            "minoan"
+          ],
+          12
+        ],
+        [
+          [
+            "oil",
+            "minoan",
+            "oil",
+            "minoan"
+          ],
+          12
+        ],
+        [
+          [
+            "vessel",
+            "minoan",
+            "vessel",
+            "minoan"
+          ],
+          12
+        ],
+        [
+          [
+            "ten",
+            "minoan",
+            "ten",
+            "minoan"
+          ],
+          11
+        ],
+        [
+          [
+            "official",
+            "minoan",
+            "official",
+            "minoan"
+          ],
+          11
+        ]
+      ]
+    },
+    "5-gram": {
+      "total": 318,
+      "unique": 87,
+      "ttr": 0.2736,
+      "top_10": [
+        [
+          [
+            "scribe",
+            "minoan",
+            "scribe",
+            "minoan",
+            "scribe"
+          ],
+          15
+        ],
+        [
+          [
+            "minoan",
+            "scribe",
+            "minoan",
+            "scribe",
+            "minoan"
+          ],
+          15
+        ],
+        [
+          [
+            "vessel",
+            "oil",
+            "ten",
+            "storage",
+            "vessel"
+          ],
+          11
+        ],
+        [
+          [
+            "oil",
+            "ten",
+            "storage",
+            "vessel",
+            "oil"
+          ],
+          11
+        ],
+        [
+          [
+            "ten",
+            "storage",
+            "vessel",
+            "oil",
+            "ten"
+          ],
+          11
+        ],
+        [
+          [
+            "storage",
+            "vessel",
+            "oil",
+            "ten",
+            "storage"
+          ],
+          11
+        ],
+        [
+          [
+            "scribe",
+            "woman",
+            "one",
+            "personnel",
+            "scribe"
+          ],
+          11
+        ],
+        [
+          [
+            "woman",
+            "one",
+            "personnel",
+            "scribe",
+            "woman"
+          ],
+          11
+        ],
+        [
+          [
+            "one",
+            "personnel",
+            "scribe",
+            "woman",
+            "one"
+          ],
+          11
+        ],
+        [
+          [
+            "personnel",
+            "scribe",
+            "woman",
+            "one",
+            "personnel"
+          ],
+          11
+        ]
+      ]
+    }
+  },
+  "markov_chains": {
+    "avg_transition_entropy": 0.8315,
+    "num_states": 29,
+    "most_deterministic": [
+      [
+        "sunki",
+        -0.0
+      ],
+      [
+        "wealth",
+        -0.0
+      ],
+      [
+        "a",
+        0.3534
+      ],
+      [
+        "e",
+        0.3534
+      ],
+      [
+        "i",
+        0.3534
+      ]
+    ],
+    "interpretation": "Highly predictable"
+  },
+  "perplexity": {
+    "unigram_perplexity": 16.95,
+    "cross_entropy": 4.0836,
+    "interpretation": "Low perplexity (predictable)"
+  },
+  "autocorrelation": {
+    "autocorrelations": {
+      "1": -0.1196,
+      "2": 0.7201,
+      "3": -0.1522,
+      "4": 0.8111,
+      "5": -0.1876,
+      "6": 0.5749,
+      "7": -0.1859,
+      "8": 0.6709,
+      "9": -0.1923,
+      "10": 0.4768
+    },
+    "peak_lag": 4,
+    "peak_correlation": 0.8111,
+    "interpretation": "Strong periodicity"
+  },
+  "burstiness": {
+    "avg_burstiness": -0.3796,
+    "top_bursty_tokens": [
+      [
+        "scribe",
+        0.6581
+      ],
+      [
+        "woman",
+        0.6206
+      ],
+      [
+        "oil",
+        0.5844
+      ],
+      [
+        "vessel",
+        0.5698
+      ],
+      [
+        "wheat",
+        0.5596
+      ]
+    ],
+    "interpretation": "Periodic/regular"
+  },
+  "recurrence_time": {
+    "avg_recurrence_time": 9.96,
+    "shortest_recurrence": [
+      [
+        "a",
+        1.0
+      ],
+      [
+        "e",
+        1.0
+      ],
+      [
+        "i",
+        1.0
+      ],
+      [
+        "o",
+        1.0
+      ],
+      [
+        "u",
+        1.0
+      ]
+    ],
+    "interpretation": "Frequent recurrence"
+  },
+  "long_range_correlation": {
+    "correlations_at_lags": [
+      [
+        2,
+        0.7201
+      ],
+      [
+        5,
+        -0.1876
+      ],
+      [
+        10,
+        0.4768
+      ],
+      [
+        20,
+        0.3673
+      ],
+      [
+        50,
+        0.2368
+      ],
+      [
+        100,
+        0.1102
+      ]
+    ],
+    "decay_rate": 0.1016,
+    "interpretation": "Normal correlation decay"
+  },
+  "menzerath_law": {
+    "correlation": 0.6526,
+    "p_value": 0.0,
+    "interpretation": "Menzerath's law weak/absent"
+  },
+  "abbreviation": {
+    "top_bigrams": [
+      [
+        [
+          "scribe",
+          "minoan"
+        ],
+        25
+      ],
+      [
+        [
+          "minoan",
+          "scribe"
+        ],
+        20
+      ],
+      [
+        [
+          "woman",
+          "minoan"
+        ],
+        15
+      ],
+      [
+        [
+          "wheat",
+          "minoan"
+        ],
+        15
+      ],
+      [
+        [
+          "oil",
+          "minoan"
+        ],
+        15
+      ],
+      [
+        [
+          "vessel",
+          "minoan"
+        ],
+        15
+      ],
+      [
+        [
+          "ten",
+          "minoan"
+        ],
+        15
+      ],
+      [
+        [
+          "official",
+          "minoan"
+        ],
+        15
+      ],
+      [
+        [
+          "vessel",
+          "oil"
+        ],
+        15
+      ],
+      [
+        [
+          "oil",
+          "ten"
+        ],
+        15
+      ]
+    ],
+    "potential_abbreviations": 0,
+    "interpretation": "Limited abbreviation evidence"
+  },
+  "chi_square": {
+    "chi_square": 38.8143,
+    "p_value": 0.083956,
+    "interpretation": "Fits Zipf well"
+  },
+  "kolmogorov_smirnov": {
+    "ks_statistic": 0.2759,
+    "p_value": 0.222135,
+    "interpretation": "Distributions similar"
+  },
+  "lempel_ziv": {
+    "lz_complexity": 2.7392,
+    "unique_substrings": 7133,
+    "interpretation": "Moderate complexity"
+  },
+  "levenshtein": {
+    "avg_edit_distance": 0.8243,
+    "sample_size": 235,
+    "interpretation": "High diversity"
+  },
+  "cosine_similarity": {
+    "cosine_similarity": 0.3154,
+    "interpretation": "Low consistency"
+  },
+  "jaccard_similarity": {
+    "jaccard_similarity": 0.4138,
+    "shared_vocab": 12,
+    "total_vocab": 29,
+    "interpretation": "Moderate overlap"
+  },
+  "aic": {
+    "aic_uniform": 3544.4,
+    "aic_zipf": 2981.71,
+    "better_model": "Zipf",
+    "interpretation": "Zipf model fits better"
+  },
+  "bic": {
+    "bic_uniform": 3548.66,
+    "bic_zipf": 2990.24,
+    "better_model": "Zipf",
+    "interpretation": "Zipf model preferred"
+  },
+  "mega_summary": {
+    "tests_run": 31,
+    "linguistic_score": 1,
+    "total_scored": 2,
+    "percentage": 50.0,
+    "overall_confidence": "MEDIUM",
+    "verdict": "Linear A validated through 31 independent statistical tests"
+  }
+}
